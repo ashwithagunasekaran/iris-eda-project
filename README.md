@@ -1,27 +1,46 @@
-# 🧮 CLI Calculator in Go
+# 🌸 Iris Dataset EDA Project
 
-A simple command-line calculator built in Go that performs basic arithmetic operations: addition, subtraction, multiplication, and division.
+An exploratory data analysis (EDA) project using the classic Iris flower dataset.  
+This notebook uses pandas, matplotlib, seaborn, and sklearn to visualize and understand the dataset.
 
-## 🔧 How to Run
+---
+
+## 📊 Features
+
+- Load the Iris dataset from sklearn.datasets
+- Summary statistics using pandas
+- Correlation heatmap
+- Pair plots for feature relationships
+- Visualize species distribution
+
+---
+
+## 🛠️ Tools & Libraries
+
+- Python 🐍
+- Jupyter Notebook 📓
+- Pandas, NumPy
+- Seaborn, Matplotlib
+- Scikit-learn
+
+---
+
+## 📸 Visuals
+
+Includes:
+- Heatmap
+- Pairplot
+- Histogram
+- Scatter plots
+
+---
+
+## 🚀 How to Run
 
 ```bash
-go run main.go 
-🧠 Features
+# Clone the repo
+git clone https://github.com/ashwithagunasekaran/iris-eda-project.git
 
-Handles user input via terminal
-
-Supports +, -, *, /
-
-Checks for division by zero
-
-
-🛠️ Tools Used
-
-Go (Golang)
-
-VS Code
-
-
-👩‍💻 Author
-
-Ashwitha Gunasekaran
+# Open the Jupyter Notebook
+cd iris-eda-project
+jupyter notebook iris_eda.ipynb
