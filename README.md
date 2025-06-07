@@ -30,8 +30,6 @@ This notebook uses pandas, matplotlib, seaborn, and sklearn to visualize and und
 Includes:
 - Heatmap
 - Pairplot
-- Histogram
-- Scatter plots
 
 ---
 
